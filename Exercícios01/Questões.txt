@@ -1,0 +1,116 @@
+Lista de Exercícios — Estruturas de Dados
+Conteúdo: Árvores
+
+PARTE 1 — ÁRVORES (Questões Conceituais)
+
+1. Uma árvore é uma estrutura de dados:
+a) Linear 
+b) Sequencial
+c) Não linear (X)
+d) Circular
+
+2. O nó que não possui pai é chamado de:
+a) Folha (X) 
+b) Raiz
+c) Interno
+d) Descendente
+
+3. Os nós que não possuem filhos são chamados de:
+a) Raiz
+b) Internos
+c) Folhas (X) 
+d) Subárvores
+
+4. A altura de uma árvore corresponde:
+a) Número total de nós
+b) Quantidade de folhas
+c) Maior caminho da raiz até uma folha (X) 
+d) Número de subárvores
+
+5. O grau de um nó corresponde:
+a) Quantidade de ancestrais
+b) Quantidade de filhos (X) 
+c) Altura da árvore 
+d) Quantidade de folhas
+
+6. Uma árvore com apenas um nó possui:
+a) Altura 0 (X) 
+b) Altura 1
+c) Grau 2
+d) Nenhuma folha
+
+7. Qual estrutura representa melhor relações hierárquicas?
+a) Vetores
+b) Pilhas
+c) Filas
+d) Árvores (X) 
+
+8. Qual das aplicações abaixo utiliza árvores?
+a) Sistema de arquivos (X)
+b) Navegador web
+c) Calculadora simples
+d) Impressora
+
+9. Explique com suas palavras o que é uma árvore em estruturas de dados.
+São estrutura de dados não linear, onde cada elemento é armazenado em um nó.
+
+10. Diferencie:
+- nó raiz
+É o topo da hieraquia
+- nó folha
+nó que não possui filhos
+- nó interno
+É qualquer nó que possui pelo menos um filho.
+
+11. Explique o conceito de ancestral e descendente de árvores.
+Ancestrais são os nós que levam até a raiz da árvore. Os descendentes são todos os nós que estão abaixo de um nó específico, seguindo
+a mesma ramificação.
+
+12. O que é profundidade de um nó?
+É  a quantidade de ligações da raíz até esse nó.
+
+13. Explique a diferença entre grau de um nó e grau de uma árvore.
+O grau de um nó é quantidade de filhos que aquele nó possui. O grau de uma árvore é a quantidade máxima de ramificações que um nó tem.
+
+14. Qual a importância das árvores para sistemas computacionais modernos?
+A importância é garantir eficiência e velocidade em uma busca de dados. Como não é uma busca linear, consequentemente sua velocidade aumenta.
+
+15. Desenhe uma árvore com:
+- 1 nó raiz
+- 3 níveis
+- pelo menos 8 nós 
+             [ A ]
+           /   |   \
+       [ B ] [ C ] [ D ]
+      /   \         /   \
+    [ E ] [ F ]   [ G ] [ H ]
+
+Indique:
+- folhas 
+E,F,G,H
+- altura
+2
+- grau da árvore
+3
+
+PARTE 2 — IMPLEMENTAÇÃO DE ÁRVORES
+
+16. Implemente em linguagem C uma estrutura de nó para uma árvore genérica.
+
+17. Crie uma função que inicializa uma árvore vazia.
+
+18. Implemente uma função para inserir filhos em um nó.
+
+19. Implemente uma função que conte quantos nós existem em uma árvore.
+
+20. Implemente uma função recursiva para calcular a altura de uma árvore.
+
+21. Faça uma função que conte quantas folhas existem em uma árvore.
+
+22. Implemente uma função que verifique se um valor existe na árvore.
+
+23. Crie uma função que imprima os nós por nível.
+
+24. Explique por que a recursão é muito utilizada em árvores.
+
+25. Implemente uma função para destruir/liberar toda a árvore da memória.
